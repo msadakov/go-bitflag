@@ -94,7 +94,7 @@ var flag Flag
 flag |= A
 
 // check if A setted
-if flag & A == 0 {
+if flag & A > 0 {
 	// Flag setted
 }
 
